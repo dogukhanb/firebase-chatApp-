@@ -25,7 +25,7 @@ const RoomPage = ({ setIsAuth, setRoom }) => {
       <p>Hangi Odaya Girmek İstiyorsunuz?</p>
       <input type="text" placeholder="ör:HaftaSonu" required />
       <button>Odaya Gir</button>
-      <button>Çıkış Yap</button>
+      <button onClick={logout}>Çıkış Yap</button>
     </form>
   );
 };
